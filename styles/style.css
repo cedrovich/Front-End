@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+h1 {
+    font-family: 'Zilla Slab', sans-serif;
+}
+
+h2 {
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 19px;
+    width: 300px;
+    padding: 13px;
+}
+
+a {
+    padding: 13px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.seccions2 {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.articles {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #cccc;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+    display: block;
+    object-fit: cover;
+}
+
+.container-fig {
+    position: relative;
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rectangule {
+    background-color: #FF5900;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.circle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #FF5900;
+    border-radius: 50%;
+}
+
+.circle p {
+    line-height: 15px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.button1 {
+    text-decoration: none;
+    color: #FF5900;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+}
+
+.seccions1 {
+    max-width: 970px;
+    margin: auto;
+}
+
+.fa-angles-right {
+    font-size: 7px;
+    margin: 2px 0 0 3px;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #FF5900;
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: bold;
+}
+
+.fa-arrow-right {
+    font-size: 20px;
+    margin: 2px 0 0 3px;
+}
+
+footer {
+    height: 150px;
+    background-color: #FF5900;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

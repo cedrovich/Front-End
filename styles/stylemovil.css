@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+    .button2 {
+        display: none;
+    }
+
+    .rectangule {
+        bottom: -48;
+        z-index: 1;
+        padding: 0 10px;
+        font-weight: bold;
+    }
+
+    .circle {
+        top: 210px;
+        right: 10px;
+        z-index: 1;
+    }
+
+    h2 {
+        margin-top: 60px;
+    }
+
+    .articles {
+        height: 400px;
+        margin: 30px 0 30px 0;
+    }
+
+    .button1 {
+        padding: 0 15px 15px 0;
+    }
+}
